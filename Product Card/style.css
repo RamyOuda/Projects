@@ -1,0 +1,83 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: absolute;
+  top: 0;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: hsl(30, 38%, 92%);
+  font-family: "Montserrat", sans-serif;
+}
+
+img {
+  height: 100%;
+  border-radius: 10px 0 0 10px;
+}
+
+h1 {
+  font-family: "Fraunces", serif;
+}
+
+button {
+  height: 100%;
+  background-color: hsl(158, 36%, 45%);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  transition: ease 300ms;
+}
+
+button:hover {
+  background-color: hsl(158, 37%, 28%);
+  cursor: pointer;
+}
+
+p {
+  color: hsl(228, 12%, 48%);
+}
+
+.card {
+  height: 500px;
+  width: 600px;
+  display: flex;
+}
+
+.left-half {
+  height: 100%;
+  width: 50%;
+}
+
+.right-half {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  background-color: white;
+  border-radius: 0 10px 10px 0;
+  width: 50%;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: "Fraunces", serif;
+  color: hsl(158, 36%, 45%);
+}
+
+.detail {
+  letter-spacing: 5px;
+}
+
+.small {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: line-through;
+}
