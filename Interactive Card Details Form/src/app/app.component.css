@@ -1,0 +1,83 @@
+* {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 18px;
+}
+
+main {
+  display: flex;
+}
+
+.side-bar {
+  background-image: url("../assets/images/bg-main-desktop.png");
+  height: 100vh;
+  width: 645px;
+}
+
+.card-front,
+.card-back {
+  height: 245px;
+  width: 447px;
+}
+
+.card-front {
+  background-image: url("../assets/images/bg-card-front.png");
+  position: absolute;
+  top: 200px;
+  left: 100px;
+}
+
+.card-back {
+  background-image: url("../assets/images/bg-card-back.png");
+  position: absolute;
+  top: 500px;
+  left: 200px;
+}
+
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 15px 0 15px 15px;
+  margin-bottom: 40px;
+  border: 1px solid #d3d3d3;
+  border-radius: 10px;
+}
+
+button {
+  padding: 15px 0;
+  border: none;
+  border-radius: 10px;
+}
+
+.exp-cvc-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inner-wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.exp-wrap {
+  display: flex;
+}
+
+.exp-wrap input {
+  width: 80px;
+  margin-right: 20px;
+}
